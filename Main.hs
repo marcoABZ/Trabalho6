@@ -1,3 +1,5 @@
+-- Marco Antônio Barbosa Zulian
+
 {-- 1. Usando List Comprehension escreva uma função, chamada divisoresden, que devolva uma lista dos divisores de um número dado. --}
 divisoresden :: Int -> [Int]
 divisoresden x = [ a | a <- [1..(x-1)], x `mod` a == 0]
